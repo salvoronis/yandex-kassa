@@ -92,3 +92,8 @@ func (p *NewPayment) WithDescription(desc string) *NewPayment {
 	p.Description = &desc
 	return p
 }
+
+func (p *NewPayment) WithPaymentToken(token string) *NewPayment {
+	p.PaymentToken = token
+	return p
+}

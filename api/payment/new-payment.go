@@ -6,6 +6,7 @@ import (
 
 type NewPayment struct {
 	APIClient    *client.APIClient `json:"-" bson:"-"`
+	PaymentToken string            `json:"payment_token" bson:"payment_token"`
 	Amount       Amount            `json:"amount" bson:"amount"`                                               // сумма платежа
 	Description  *string           `json:"description,omitempty" bson:"description,omitempty"`                 // описание транзакции (не более 128 символов), которое вы увидите в личном кабинете Яндекс.Кассы
 	Recipient    *Recipient        `json:"recipient,omitempty" bson:"recipient,omitempty"`                     // получатель платежа
