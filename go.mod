@@ -1,4 +1,4 @@
-module github.com/dbzer0/yandex-kassa
+module github.com/salvoronis/yandex-kassa
 
 go 1.17
 
