@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dbzer0/yandex-kassa/api"
-	"github.com/dbzer0/yandex-kassa/api/currency"
 	"github.com/google/uuid"
+	"github.com/salvoronis/yandex-kassa/api"
+	"github.com/salvoronis/yandex-kassa/api/currency"
 )
 
 func main() {

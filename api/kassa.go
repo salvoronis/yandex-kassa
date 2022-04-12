@@ -11,7 +11,7 @@ import (
 	"github.com/salvoronis/yandex-kassa/api/payment"
 )
 
-const apiURL = "https://payment.yandex.net/api/v3"
+const apiURL = "https://api.yookassa.ru/v3"
 const typeError = "error"
 
 type Kassa struct {
